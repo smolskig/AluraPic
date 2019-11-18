@@ -1,0 +1,2 @@
+<!--Percorrendo o array photos e altera os valores das propriedades do componente atraves de inbound propertys-->
+<ap-photo *ngFor = "let photo of photos" [url]="photo.url" [description]="photo.description" ></ap-photo>
